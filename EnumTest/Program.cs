@@ -23,7 +23,7 @@ namespace EnumTest
 			var yArr = new[] { y };
 			var zArr = xArr.Where(a => yArr.Contains(a));
 			Console.WriteLine(fields.Count());
-			Console.Read();
+			Console.ReadLine();
 		}
 	}
 
